@@ -1,13 +1,17 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 16px;
 	color: black;
-	background-color: #11ffff;
+	background-color: #BEF2C2;
 	font-family: Helvitica;
 }
 
 /**Header**/
 #header-nav {
-	background-color: #ff11ff;
+	background-color: #F4BCEF;
 	border-radius: 0;
 	border: 0;
 }
@@ -22,7 +26,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 0;
-  	margin-bottom: 0;
+  margin-bottom: 0;
 	padding-bottom: 2%;
 	padding-left: 5%;
 	width: 200px;
@@ -44,7 +48,7 @@ body {
 
 }
 
-#beef {
+#beef_menu {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
@@ -61,13 +65,26 @@ body {
   clear: both;
   margin-top: -30px;}
 
-#header2 {
+#main-content {
+	position: relative;
+}
+
+div.backtotop {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+
+#chicken, #beef, #sushi {
+	height: 700px;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 25px;
+	position: relative;
 
 }
-#chicken {
-	height: 1000px;
-	background-color: #fff;
-}
+
+
 	
 @media (min-width: 768px) {
 	#header-nav {height: 65px;}
